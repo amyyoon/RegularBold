@@ -1,0 +1,38 @@
+.contactBox{width: 100%;
+height: 500px;
+background-image: url(../../img/download-12.jpg);
+background-repeat: no-repeat;
+background-position: center;
+-webkit-background-size: cover;
+background-size: cover;
+}
+
+.contactBox>h2{
+padding-top: 100px;
+box-sizing: border-box;
+color:#fff;
+font-size: 3rem;
+text-align: center;
+font-weight: bold;
+}
+
+
+.contactBox>p{
+padding-top: 50px;
+padding-bottom: 50px;
+box-sizing: border-box;
+color:#fff;
+font-size: 1.5rem;
+text-align: center;
+}
+
+.contactBox>button{
+width: 200px;height: 70px;
+margin: auto;display: block;
+text-align: center;
+line-height: 70px;
+color:#fff;
+font-size: 1.2rem;
+font-weight: bold;
+border:3px solid #fff;}
+

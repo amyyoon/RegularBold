@@ -1,0 +1,80 @@
+.workBox{padding-top: 20px;
+box-sizing: border-box;
+width: 100%;
+height: 600px;
+background-color: #fff;}
+.workBox>ul{width: 1200px;
+height: 100%;margin: auto;}
+.workBox>ul>li{float:left;
+width: 22%; margin-left:3%;
+height: 48%; margin-bottom: 2%;
+background-repeat: no-repeat;
+background-position: center;
+-webkit-background-size: contain;
+background-size: contain;}
+
+.workBox>ul>li>a{display: block;
+width: 100%;height: 100%;}
+.workBox>ul>li:nth-of-type(1){
+background-image: url(../../img/download-1.jpg);
+}
+.workBox>ul>li:nth-of-type(2){
+background-image: url(../../img/download-2.jpg);
+}
+.workBox>ul>li:nth-of-type(3){
+background-image: url(../../img/download-3.jpg);
+}
+.workBox>ul>li:nth-of-type(4){
+background-image: url(../../img/download-4.jpg);
+}
+.workBox>ul>li:nth-of-type(5){
+background-image: url(../../img/download-5.jpg);
+}
+.workBox>ul>li:nth-of-type(6){
+background-image: url(../../img/download-6.jpg);
+}
+.workBox>ul>li:nth-of-type(7){
+background-image: url(../../img/download-7.jpg);
+}
+.workBox>ul>li:nth-of-type(8){
+background-image: url(../../img/download-8.jpg);
+}
+
+.workBox>ul>li:after{
+display: block;
+width: 100%;height: 100%;
+background-color: transparent;
+transition:all 500ms ease;
+transform:rotateX(0deg);}
+
+.workBox>ul>li:hover:after{
+background-color: #000; color:#fff;
+line-height:300px; text-align: center;
+font-size: 1rem; font-weight: bold;
+transform:rotateX(30deg);
+}
+
+.workBox>ul>li:nth-of-type(1):after{content:"UI/UX";}
+.workBox>ul>li:nth-of-type(2):after{content:"Campaign";}
+.workBox>ul>li:nth-of-type(3):after{content:"Movie";}
+.workBox>ul>li:nth-of-type(4):after{content:"Print Package";}
+.workBox>ul>li:nth-of-type(5):after{content:"Book&Print";}
+.workBox>ul>li:nth-of-type(6):after{content:"Illust&Graphic";}
+.workBox>ul>li:nth-of-type(7):after{content:"with ACG";}
+.workBox>ul>li:nth-of-type(8):after{content:"with ACG";}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
