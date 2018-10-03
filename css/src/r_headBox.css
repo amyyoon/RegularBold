@@ -2,7 +2,7 @@
 width: 100%;
 height: auto;
 background-color: #fff;}
-.topBtn{position: absolute;
+.topBtn{position: fixed;
 right:50px; bottom:50px;
 width: 50px;height: 50px;
 background-color: #333;
