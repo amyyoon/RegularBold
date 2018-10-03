@@ -40,31 +40,54 @@ background-image: url(../../img/download-7.jpg);
 background-image: url(../../img/download-8.jpg);
 }
 
-.workBox>ul>li:after{
-display: block;
-width: 100%;height: 100%;
-background-color: transparent;
-transition:all 500ms ease;
-transform:rotateX(0deg);}
 
-.workBox>ul>li:hover:after{
-background-color: #000; color:#fff;
-line-height:300px; text-align: center;
-font-size: 1rem; font-weight: bold;
-transform:rotateX(30deg);
+.workBox>ul>li:nth-of-type(1):before{content:"UI/UX";}
+.workBox>ul>li:nth-of-type(2):before{content:"Campaign";}
+.workBox>ul>li:nth-of-type(3):before{content:"Movie";}
+.workBox>ul>li:nth-of-type(4):before{content:"Print Package";}
+.workBox>ul>li:nth-of-type(5):before{content:"Book&Print";}
+.workBox>ul>li:nth-of-type(6):before{content:"Illust&Graphic";}
+.workBox>ul>li:nth-of-type(7):before{content:"with ACG";}
+.workBox>ul>li:nth-of-type(8):before{content:"with ACG";}
+
+
+
+.workBox>ul>li {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  position: relative;
+  transition-property: color;
+  transition-duration: 0.3s;
 }
-
-.workBox>ul>li:nth-of-type(1):after{content:"UI/UX";}
-.workBox>ul>li:nth-of-type(2):after{content:"Campaign";}
-.workBox>ul>li:nth-of-type(3):after{content:"Movie";}
-.workBox>ul>li:nth-of-type(4):after{content:"Print Package";}
-.workBox>ul>li:nth-of-type(5):after{content:"Book&Print";}
-.workBox>ul>li:nth-of-type(6):after{content:"Illust&Graphic";}
-.workBox>ul>li:nth-of-type(7):after{content:"with ACG";}
-.workBox>ul>li:nth-of-type(8):after{content:"with ACG";}
-
-
-
+.workBox>ul>li:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #333;
+  transform: scaleX(0);
+  transform-origin: 50% 50%;
+  transition-property: transform;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+.workBox>ul>li:hover, 
+.workBox>ul>li:focus, 
+.workBox>ul>li:active {
+  color: #fff;line-height:300px; text-align: center;
+font-size: 1rem; font-weight: bold;
+}
+.workBox>ul>li:hover:before, 
+.workBox>ul>li:focus:before, 
+.workBox>ul>li:active:before {
+  transform: scaleX(1);
+}
 
 
 

@@ -32,7 +32,45 @@ margin: auto;display: block;
 text-align: center;
 line-height: 70px;
 color:#fff;
-font-size: 1.2rem;
+font-size: 1rem;
 font-weight: bold;
 border:3px solid #fff;}
+
+
+.contactBox>button {
+  display: block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  position: relative;
+  transition-property: color;
+  transition-duration: 0.3s;
+}
+.contactBox>button:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  transform: scaleX(0);
+  transform-origin: 0% 100%;
+  transition-property: transform;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+.contactBox>button:hover, 
+.contactBox>button:focus, 
+.contactBox>button:active {
+  color: #000;line-height:70px; text-align: center;
+font-size: 1rem; font-weight: bold;
+}
+.contactBox>button:hover:before, 
+.contactBox>button:focus:before, 
+.contactBox>button:active:before {
+  transform: scaleX(1);
+}
 
