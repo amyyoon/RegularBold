@@ -1,0 +1,145 @@
+.memberBox{padding-top: 50px;
+box-sizing: border-box;
+margin: auto;
+width: 1200px;
+height: 2500px;
+background-color: #fff;
+}
+
+.memberBox>h2{
+font-size: 3rem;
+text-align: center;
+color:#000;
+font-weight: bold;
+}
+
+.memberBox>p{
+padding-top: 50px;
+box-sizing: border-box;
+font-size: 1.3rem;
+text-align: center;
+color:#000;
+}
+
+.memberPic{
+padding-top: 100px;
+box-sizing: border-box;
+width: 100%;height: auto;
+}
+
+.memberPic>li{
+float:left;
+width: 22%; height: 450px;
+margin-right: 3%;
+margin-bottom: 20px;
+}
+
+.memberPic>li:last-child{margin-right: 0}
+.memberPic>li>dl{width: 100%;
+height: 100%;
+padding:15px;
+box-sizing: border-box;}
+
+.memberPic>li>dl>div{
+width: 100%;height: 250px;
+background-repeat: no-repeat;
+background-position: center;
+-webkit-background-size: contain;
+background-size: contain;
+}
+
+.memberPic>li:nth-of-type(1)>dl>div
+{background-image: url(../../../img/download-13.jpg);
+}
+
+.memberPic>li:nth-of-type(2)>dl>div
+{background-image: url(../../../img/download-14.jpg);
+}
+
+.memberPic>li:nth-of-type(3)>dl>div
+{background-image: url(../../../img/download-15.jpg);
+}
+
+.memberPic>li:nth-of-type(4)>dl>div
+{background-image: url(../../../img/download-16.jpg);
+}
+
+.memberPic>li:nth-of-type(5)>dl>div
+{background-image: url(../../../img/download-17.jpg);
+}
+
+.memberPic>li:nth-of-type(6)>dl>div
+{background-image: url(../../../img/download-18.jpg);
+}
+
+.memberPic>li:nth-of-type(7)>dl>div
+{background-image: url(../../../img/download-19.jpg);
+}
+
+.memberPic>li:nth-of-type(8)>dl>div
+{background-image: url(../../../img/download-20.jpg);
+}
+
+.memberPic>li:nth-of-type(9)>dl>div
+{background-image: url(../../../img/download-21.jpg);
+}
+
+.memberPic>li:nth-of-type(10)>dl>div
+{background-image: url(../../../img/download-22.jpg);
+}
+
+.memberPic>li:nth-of-type(11)>dl>div
+{background-image: url(../../../img/download-23.jpg);
+}
+
+.memberPic>li:nth-of-type(12)>dl>div
+{background-image: url(../../../img/download-24.jpg);
+}
+
+.memberPic>li:nth-of-type(13)>dl>div
+{background-image: url(../../../img/download-25.jpg);
+}
+
+.memberPic>li:nth-of-type(14)>dl>div
+{background-image: url(../../../img/download-26.jpg);
+}
+
+.memberPic>li:nth-of-type(15)>dl>div
+{background-image: url(../../../img/download-27.jpg);
+}
+
+.memberPic>li:nth-of-type(16)>dl>div
+{background-image: url(../../../img/download-28.jpg);
+}
+
+.memberPic>li>dl>dt{
+padding-top: 30px;
+box-sizing: border-box;
+color:#000;
+font-size: 1rem;
+font-weight: bold;
+}
+
+.memberPic>li>dl>dd:nth-of-type(1){
+padding-top: 10px;
+box-sizing: border-box;
+color:#000;
+font-size: 1.3rem;
+font-weight: bold;
+}
+
+.memberPic>li>dl>dd:nth-of-type(2){
+padding-top: 20px;
+box-sizing: border-box;
+color:#aaa;
+font-size: 0.9rem;
+font-weight: bold;
+}
+
+.memberPic>li>dl>dd:nth-of-type(3){
+color:#aaa;
+font-size: 0.9rem;
+font-weight: bold;
+}
+
+
