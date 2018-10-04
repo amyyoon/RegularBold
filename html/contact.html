@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- paul warmer.html-->
+<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<!-- meta:vp -->
+	<meta name="viewport" 
+	content="width=device-width, user-scalable=no, 
+	initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!--import css-->
+	<link rel="stylesheet" href="../css/base/reset.css" />
+	<link rel="stylesheet" href="../css/src/contact/contact_all.css" />
+	<link rel="stylesheet" href="../fontawesome5/css/all.css" />
+	<!--favicon-->
+	<link rel="apple-touch-icon" href="../img/favicon.png" />
+	<link rel="shortcut icon" type="image/x-icon" href="../img/favicon.png" />
+
+	<title>Regular Bold</title>
+</head>
+<body>
+<button type="button" class="topBtn"><i class="fas fa-angle-double-up"></i>TOP</button>
+	<div id="wrap">	
+		<header class="headBox">
+		</header>
+		<section class="contactBox">
+			<h2>Contact</h2>
+			<p>고객의 브랜드에 통합적으로 반응하고 함께하는 RegularBold입니다.</p>
+		</section>
+		<footer class="footBox">
+		</footer>
+	</div>
+</body>
+<script src="../js/base/jquery-3.3.1.min.js"></script>
+<script src="../js/base/jquery-ui.min.js"></script>
+<script src="../js/src/regular.js"></script>
+<script>
+    (function($){
+      var headBox = $('#headBox');
+      var footBox = $('#footBox');
+      headBox.load('Common/headBox.html');
+      footBox.load('Common/footBox.html');
+    })(jQuery);
+</script>

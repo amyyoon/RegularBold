@@ -1,0 +1,25 @@
+.contactBox{padding-top: 180px;
+box-sizing: border-box;
+width: 100%;
+height: 500px;
+background-image: url(../../../img/download-29.jpg);
+background-repeat: no-repeat;
+background-position: center;
+-webkit-background-size: cover;
+background-size: cover;
+}
+
+.contactBox>h2{
+text-align: center;
+color:#fff;
+font-size: 3rem;
+font-weight: bold;
+}
+
+.contactBox>p
+{margin-top: 50px;
+color:#fff;
+text-align: center;
+font-weight: bold;
+font-size: 1.2rem;
+}
