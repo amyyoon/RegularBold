@@ -1,4 +1,5 @@
-.contactBox{width: 100%;
+.contactBox{position: relative;
+width: 100%;
 height: 500px;
 background-image: url(../../img/download-12.jpg);
 background-repeat: no-repeat;

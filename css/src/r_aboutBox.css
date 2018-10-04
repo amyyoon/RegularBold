@@ -1,4 +1,5 @@
-.aboutBox{padding-top: 100px;
+.aboutBox{position: relative;
+padding-top: 100px;
 box-sizing: border-box;
 width: 100%;
 height: 500px;background-color: #fff;}

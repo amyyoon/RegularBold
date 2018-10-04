@@ -1,4 +1,5 @@
-.workBox{padding-top: 20px;
+.workBox{position: relative;
+padding-top: 20px;
 box-sizing: border-box;
 width: 100%;
 height: 600px;
