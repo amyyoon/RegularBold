@@ -1,6 +1,6 @@
 .recruitBox{
 width: 1200px;
-height: 2000px;
+height: 4500px;
 background-color: #fff;
 margin: auto;
 }
@@ -20,8 +20,8 @@ width: 25%;
 height: 100%;
 }
 
-.recruit>dl{width: 100%;
-height: 500px;
+.recruit1{width: 100%;
+height: 1350px;
 background-color: #fff;}
 
 .reImg{
@@ -33,33 +33,204 @@ background-position: center;
 background-size: contain;
 }
 
-.recruit>dl>dt{font-size: 1.3rem;
+.recruit1>dt{font-size: 1.3rem;
 font-weight: 400;}
 
-.recruit>dl>dd:nth-of-type(1){font-size: 1rem;
+.recruit1>dd:nth-of-type(1){font-size: 1rem;
 padding-top: 20px;
 box-sizing: border-box;
 color:#ddd;
 font-weight: bold;}
 
-.recruit>dl>dd:nth-of-type(2){font-size: 1rem;
+.recruit1>dd:nth-of-type(2){font-size: 1rem;
 padding-top: 50px;
 box-sizing: border-box;
 font-weight: 400;}
 
+.recruit1>span{display: block;
+margin-top: 60px;
+width: 100%;
+height: 1px;
+background-color: #ddd;}
 
 
+.recruit2{width: 100%;
+height: 1000px;
+background-color: #fff;}
+
+.recruit2>dt{font-size: 1.3rem;
+font-weight: 400;}
+
+.recruit2>dd:nth-of-type(1){font-size: 1rem;
+padding-top: 20px;
+box-sizing: border-box;
+color:#888;
+font-weight: bold;}
+
+.recruit2>dd:nth-of-type(2){
+font-size: 2rem;
+padding-top: 100px;
+padding-left: 100px;
+box-sizing: border-box;
+font-weight: 400;}
+
+.recruit2>span{display: block;
+margin-top: 20px;
+margin-left: 200px;
+width: 75%;
+height: 1px;
+background-color: #888;}
+
+.logo{float:left;
+margin-top: 100px;
+margin-left: 50px;
+margin-right: 50px;
+width: 120px;
+height: 120px;
+background-image: url(../../../img/rb_logo.png);
+background-repeat: no-repeat;
+background-position: center;
+-webkit-background-size: contain;
+background-size: contain;
+}
+
+.recruit2>dd:nth-of-type(3){
+margin-left: 220px;
+padding-top: 20px;
+box-sizing: border-box;
+font-size: 0.9rem;
+}
+
+.recruit2>dd:nth-of-type(4){
+padding-top: 50px;
+margin-left: 220px;
+box-sizing: border-box;
+font-size: 1rem;
+font-weight: bold;
+}
+
+.recruit2>dd:nth-of-type(5){
+padding-top: 10px;
+margin-left: 220px;
+box-sizing: border-box;
+font-size: 0.9rem;
+}
+
+.recruit2>dd:nth-of-type(6){
+padding-top: 50px;
+margin-left: 220px;
+box-sizing: border-box;
+font-size: 1rem;
+font-weight: bold;
+}
+
+.table{padding-top: 10px;
+box-sizing: border-box;
+margin-left: 220px;
+width: 70%;
+height: 400px;	
+}
 
 
+.table tr{
+width: 100%;height: 50px;
+border:1px solid #888;
+width: 100%;
+height: 100%;
+}
+
+.table tr>td{
+float:left;
+width: 24%;
+height: 50px;
+border:1px solid #888;
+font-size: 0.8rem;
+line-height: 50px;
+text-align: left;
+vertical-align: middle;
+text-indent: 20px;
+}
+
+.table tr>th{
+float:right;
+width: 74%;
+height: 50px;
+border:1px solid #888;
+font-size: 0.8rem;
+font-weight: normal;
+text-align: left;
+vertical-align: middle;
+text-indent: 20px;
+line-height: 50px;
+}
+
+.recruit2>p{
+padding-top: 50px;
+box-sizing: border-box;
+margin-left: 220px;
+font-size: 1rem;
+font-weight: bold;}
+
+.recruit2>span:nth-of-type(1),
+.recruit2>span:nth-of-type(2){display: block;
+margin-left: 220px;
+margin-top: 20px;
+width: 100%;
+height: 1px;
+background-color: #ddd;}
+
+.recruit2>span{display: block;
+margin-left: 0;
+margin-top: 20px;
+width: 100%;
+height: 1px;
+background-color: #ddd;}
 
 
+.recruit3{width: 100%;
+height: 1000px;
+background-color: #fff;}
 
+.reImg1{
+width: 100%;height: 660px;
+background-image: url(../../../img/download-70.jpg);
+background-repeat: no-repeat;
+background-position: center;
+-webkit-background-size: contain;
+background-size: contain;
+}
 
+.recruit3>dt{font-size: 1.3rem;
+font-weight: 400;}
 
+.recruit3>dd:nth-of-type(1){
+font-size: 1rem;
+padding-top: 20px;
+padding-bottom: 50px;
+box-sizing: border-box;
+color:#ddd;
+font-weight: bold;}
 
+.recruit4{width: 100%;
+height: 800px;
+background-color: #fff;}
 
+.reImg2{
+width: 100%;height: 660px;
+background-image: url(../../../img/download.png);
+background-repeat: no-repeat;
+background-position: center;
+-webkit-background-size: contain;
+background-size: contain;
+}
 
+.recruit4>dt{font-size: 1.3rem;
+font-weight: 400;}
 
-
-
-
+.recruit4>dd:nth-of-type(1){
+font-size: 1rem;
+padding-top: 20px;
+padding-bottom: 50px;
+box-sizing: border-box;
+color:#ddd;
+font-weight: bold;}
