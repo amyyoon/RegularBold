@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- paul warmer.html-->
+<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<!-- meta:vp -->
+	<meta name="viewport" 
+	content="width=device-width, user-scalable=no, 
+	initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!--import css-->
+	<link rel="stylesheet" href="../css/base/reset.css" />
+	<link rel="stylesheet" href="../css/src/story/all_story.css" />
+	<link rel="stylesheet" href="../fontawesome5/css/all.css" />
+	<!--favicon-->
+	<link rel="apple-touch-icon" href="../img/favicon.png" />
+	<link rel="shortcut icon" type="image/x-icon" href="../img/favicon.png" />
+
+	<title>Regular Bold</title>
+</head>
+<body>
+<button type="button" class="topBtn"><i class="fas fa-angle-double-up"></i>TOP</button>
+	<div id="wrap">	
+		<header class="headBox">
+		</header>
+		<section class="recruitBox">
+			<ul>
+				<li class="recruit">
+					<dl>
+						<div class="reImg"></div>
+						<dt>[Recruit] RegularBold 2017년 상반기 공채 채용공지</dt>
+						<dd>2017년 2월 27일</dd>
+						<dd>레귤러 멤버에서 볼드 멤버로<br />
+						개인의 가치있는 성장을 함께합니다<br /><br />
+						우리와 함께 할 소중한 분들의 지원을 기다리겠습니다<br /><br /><br />
+						1. 모집 분야 : 웹/모바일 기획 및 서비스, UI 디자인<br />
+						2. 채용 대상 : 기획PM/PL, UI 디자이너<br /><br />
+						
+						3. 지원 자격 : 경력 3년 이상<br />
+						4. 근무 조건 : 주 5일제 / 자율 출근제 / Refresh Program 등<br />
+						5. 모집 인원 : 00 명<br /><br />
+						
+						6. 채용 일정 :2017년 2월 27일 – 2017년 3월 17일<br />
+						7. 채용 접수 : job@regularbold.co.kr<br />
+						8. 문의 사항 : job@regularbold.co.kr<br /><br /><br />
+						선지원자 우선 면접 및 채용 진행 예정이오니 참조 바랍니다.<br />
+						지정 양식은 없습니다.<br /><br /><br />
+						본인을 가장 잘 표현하는 양식으로 지원 바랍니다.</dd>
+					</dl>
+				</li>
+				<li class="latest"></li>
+			</ul>
+		</section>
+		<footer class="footBox">
+		</footer>
+	</div>
+</body>
+<script src="../js/base/jquery-3.3.1.min.js"></script>
+<script src="../js/base/jquery-ui.min.js"></script>
+<script src="../js/src/regular.js"></script>
+<script>
+    (function($){
+      var headBox = $('#headBox');
+      var footBox = $('#footBox');
+      headBox.load('common/headBox.html');
+      footBox.load('common/footBox.html');
+    })(jQuery);
+</script>
