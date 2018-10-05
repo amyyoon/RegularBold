@@ -19,16 +19,18 @@ var contentLi =contentUl.children('li');
 contentLi.on('mouseover',function(e){
 	e.preventDefault();
 	var i = $(this).index();
-	contentLi.eq(i).addClass('active');
 	contentLi.eq(i).children('dl').addClass('show');
+	contentLi.eq(i).addClass('active');
+	
 
 });
 
 contentLi.on('mouseleave',function(e){
 	e.preventDefault();
 	var i = $(this).index();
-	contentLi.eq(i).removeClass('active');
 	contentLi.eq(i).children('dl').removeClass('show');
+	contentLi.eq(i).removeClass('active');
+	
 });
 
 })(jQuery);
