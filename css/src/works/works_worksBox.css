@@ -105,10 +105,43 @@ font-weight: bold;
 z-index: 999;
 }
 
+.contentUl{display: none;}
+.contentUl.active{display: block;}
 
 
 
 
+.content>ul:nth-of-type(2)>li:nth-of-type(1){
+background-image: url(../../../img/download-38.jpg);
+}
+
+.content>ul:nth-of-type(2)>li:nth-of-type(2){
+background-image: url(../../../img/download-39.jpg);
+}
+
+.content>ul:nth-of-type(2)>li:nth-of-type(3){
+background-image: url(../../../img/download-40.jpg);
+}
+
+.content>ul:nth-of-type(2)>li:nth-of-type(4){
+background-image: url(../../../img/download-41.jpg);
+}
+
+.content>ul:nth-of-type(2)>li:nth-of-type(5){
+background-image: url(../../../img/download-42.jpg);
+}
+
+.content>ul:nth-of-type(2)>li:nth-of-type(6){
+background-image: url(../../../img/download-43.jpg);
+}
+
+.content>ul:nth-of-type(2)>li:nth-of-type(7){
+background-image: url(../../../img/download-44.jpg);
+}
+
+.content>ul:nth-of-type(2)>li:nth-of-type(8){
+background-image: url(../../../img/download-45.jpg);
+}
 
 
 

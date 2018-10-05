@@ -33,4 +33,29 @@ contentLi.on('mouseleave',function(e){
 	
 });
 
+
+var titleLi= $('.title').find('li');
+var contentUl=$('.contentUl');
+
+contentUl.eq(0).addClass('active');
+
+titleLi.on('click',function(e){
+	e.preventDefault();
+	var i = $(this).index();
+	contentUl.eq(i).addClass('active');
+	contentUl.eq(i).siblings().removeClass('active');
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
 })(jQuery);
