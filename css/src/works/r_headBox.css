@@ -1,0 +1,70 @@
+#wrap{position: relative;
+width: 100%;
+height: auto;
+background-color: #fff;}
+.topBtn{position: fixed;
+display: block;
+right:50px; bottom:50px;
+width: 50px;height: 50px;
+background-color: #333;
+color:#fff;
+font-size: 0.9rem;
+font-weight: bold;
+z-index: 9999;}
+
+
+.headBox{
+width: 1200px;
+height:100px; margin: auto;}
+h1{float:left;
+margin-left: 50px;
+width: 195px; height: 100px;
+background-image:url(../../img/rb-logo.svg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;}
+h1>a{display: block;
+width: 100%;height: 100%;}
+h1>a>span{width: 100%;height: 100%;}
+.gnb{float:left;
+margin-left: 100px;
+min-width: 650px; height: 100%;}
+.gnb>li{float:left; width: 150px;
+height: 100%;}
+.gnb>li>a{display: block;
+width: 100%;height: 100%;
+font-size: 1.2rem; color:#000;
+text-align: center; 
+font-weight: bold;
+line-height:100px;
+transition: all 300ms ease;}
+
+/*.gnb>li>a:hover,
+.gnb>li>a:focus{
+text-decoration: none;
+outline:0;
+}*/
+
+.gnb>li>a:after{content:" ";
+display: block;
+position: absolute;
+height: 0;bottom: 0;
+border-bottom: 2px solid #333;
+width: 0;left:0;
+transition: 300ms ease;}
+
+.gnb>li>a:focus:after
+.gnb>li>a:hover:after{width: 100%;
+left:100%;
+border-color:#333;}
+
+.snb{float:right;
+min-width: 115px;}
+.snb>li{float:left;
+width: 50px;
+height: 100%;
+line-height: 100px;}
+.snb>li>a{display: block;
+width: 100%;height: 100%;
+font-size: 1rem;}
+

@@ -1,0 +1,27 @@
+.worksBox{padding-top: 100px;
+box-sizing: border-box;
+width: 1200px;
+margin: auto;
+height: 1000px;
+background-color: #fff;}
+.worksBox>h2{
+font-size: 3rem;
+text-align: center;
+font-weight: bold;
+}
+
+.title{margin-top: 100px;
+width: 600px;height: 50px;
+margin: auto;
+}
+
+.title>ul{width: 100%;
+height: 100%;}
+
+.title>ul>li{float:left;
+width: 150px;height: 100%;}
+.title>ul>li>a{text-align: center;
+line-height: 50px; 
+font-size: 0.8rem;
+color:#ddd;
+font-weight: bold;}
