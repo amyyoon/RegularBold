@@ -10,12 +10,12 @@ text-align: center;
 font-weight: bold;
 }
 
-.title{margin-top: 100px;
-width: 600px;height: 50px;
+.title{width: 600px;height: 50px;
 margin: auto;
 }
 
-.title>ul{width: 100%;
+.title>ul{margin-top: 30px;
+width: 100%;
 height: 100%;}
 
 .title>ul>li{float:left;
@@ -23,5 +23,106 @@ width: 150px;height: 100%;}
 .title>ul>li>a{text-align: center;
 line-height: 50px; 
 font-size: 0.8rem;
-color:#ddd;
+color:#ccc;
 font-weight: bold;}
+
+.content{width: 1200px;height: 950px;
+margin: auto;
+background-color: #fff;}
+
+.content>ul{width: 100%;
+height: 100%;}
+
+.content>ul>li{
+float:left;
+width: 22%;height: 300px;
+margin-right: 3%;
+background-repeat: no-repeat;
+-webkit-background-size: contain;
+background-size: contain;
+background-position: center;
+}
+
+.content>ul>li:before{
+content:" ";
+display: none;
+width: 100%;height: 100%;
+background-color: rgba(0,0,0,0.7);
+z-index:500;
+}
+.content>ul>li.active:before{
+display: block;
+}
+
+.content>ul>li:last-child{margin-right: 0}
+
+.content>ul>li:nth-of-type(1){
+background-image: url(../../../img/download-30.jpg);
+}
+
+.content>ul>li:nth-of-type(2){
+background-image: url(../../../img/download-31.jpg);
+}
+
+.content>ul>li:nth-of-type(3){
+background-image: url(../../../img/download-32.jpg);
+}
+
+.content>ul>li:nth-of-type(4){
+background-image: url(../../../img/download-33.jpg);
+}
+
+.content>ul>li:nth-of-type(5){
+background-image: url(../../../img/download-34.jpg);
+}
+
+.content>ul>li:nth-of-type(6){
+background-image: url(../../../img/download-35.jpg);
+}
+
+.content>ul>li:nth-of-type(7){
+background-image: url(../../../img/download-36.jpg);
+}
+
+.content>ul>li:nth-of-type(8){
+background-image: url(../../../img/download-37.jpg);
+}
+
+.contentUl>li>dl{
+display: none;
+transition:all 300ms ease-out;
+margin-top: 200px;
+margin-left: 30px;
+width: 100%;height: 100px;
+z-index: 999;
+}
+
+.contentUl>li>dl.show{
+display: block;
+}
+.contentUl>li>dl>dt{
+font-size: 0.9rem;
+color:#fff;
+z-index: 999;
+}
+
+.contentUl>li>dl>dd{
+margin-top: 10px;
+font-size: 1.5rem;
+color:#fff;
+font-weight: bold;
+z-index: 999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
