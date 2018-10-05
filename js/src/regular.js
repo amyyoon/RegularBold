@@ -39,9 +39,17 @@ var contentUl=$('.contentUl');
 
 contentUl.eq(0).addClass('active');
 
-titleLi.on('click',function(e){
+titleLi.on('click mouseover',function(e){
 	e.preventDefault();
 	var i = $(this).index();
+	titleLi.eq(i).children('a').css({'color':'#3a8',
+	'fontWeight':'bold',
+	'fontSize':'1.2rem',
+	'borderBottom':'2px solid #000'});
+	titleLi.eq(i).siblings().children('a').css({'color':'#ddd',
+	'fontSize':'0.8rem',
+	'fontWeight':'normal',
+	'borderBottom':'none'});
 	contentUl.eq(i).addClass('active');
 	contentUl.eq(i).siblings().removeClass('active');
 })

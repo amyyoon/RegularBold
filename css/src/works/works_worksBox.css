@@ -78,6 +78,25 @@ background-image: url(../../../img/download-36.jpg);
 background-image: url(../../../img/download-37.jpg);
 }
 
+.content>ul:nth-of-type(1)>li:nth-of-type(8){
+background-image: url(../../../img/download-45.jpg);
+}
+
+.content>ul:nth-of-type(1)>li:nth-of-type(9){
+background-image: url(../../../img/download-65.jpg);
+}
+
+.content>ul:nth-of-type(1)>li:nth-of-type(10){
+background-image: url(../../../img/download-66.jpg);
+}
+
+.content>ul:nth-of-type(1)>li:nth-of-type(11){
+background-image: url(../../../img/download-67.jpg);
+}
+
+.content>ul:nth-of-type(1)>li:nth-of-type(12){
+background-image: url(../../../img/download-68.jpg);
+}
 .contentUl>li>dl{
 display: none;
 transition:all 300ms ease-out;
@@ -93,14 +112,14 @@ display: block;
 }
 .contentUl>li>dl>dt{
 font-size: 0.9rem;
-color:#fff;
+color:#000;
 z-index: 999;
 }
 
 .contentUl>li>dl>dd{
 margin-top: 10px;
 font-size: 1.5rem;
-color:#fff;
+color:#000;
 font-weight: bold;
 z-index: 999;
 }
@@ -142,6 +161,87 @@ background-image: url(../../../img/download-44.jpg);
 .content>ul:nth-of-type(2)>li:nth-of-type(8){
 background-image: url(../../../img/download-45.jpg);
 }
+
+.content>ul:nth-of-type(2)>li:nth-of-type(9){
+background-image: url(../../../img/download-65.jpg);
+}
+
+.content>ul:nth-of-type(2)>li:nth-of-type(10){
+background-image: url(../../../img/download-66.jpg);
+}
+
+.content>ul:nth-of-type(2)>li:nth-of-type(11){
+background-image: url(../../../img/download-67.jpg);
+}
+
+.content>ul:nth-of-type(2)>li:nth-of-type(12){
+background-image: url(../../../img/download-68.jpg);
+}
+
+.content>ul:nth-of-type(3)>li:nth-of-type(1){
+background-image: url(../../../img/download-46.jpg);
+}
+
+.content>ul:nth-of-type(3)>li:nth-of-type(2){
+background-image: url(../../../img/download-47.jpg);
+}
+
+.content>ul:nth-of-type(3)>li:nth-of-type(3){
+background-image: url(../../../img/download-48.jpg);
+}
+
+.content>ul:nth-of-type(3)>li:nth-of-type(4){
+background-image: url(../../../img/download-49.jpg);
+}
+
+.content>ul:nth-of-type(3)>li:nth-of-type(5){
+background-image: url(../../../img/download-50.jpg);
+}
+
+.content>ul:nth-of-type(3)>li:nth-of-type(6){
+background-image: url(../../../img/download-51.jpg);
+}
+
+.content>ul:nth-of-type(3)>li:nth-of-type(7){
+background-image: url(../../../img/download-52.jpg);
+}
+
+.content>ul:nth-of-type(3)>li:nth-of-type(8){
+background-image: url(../../../img/download-53.jpg);
+}
+
+.content>ul:nth-of-type(4)>li:nth-of-type(1){
+background-image: url(../../../img/download-54.jpg);
+}
+
+.content>ul:nth-of-type(4)>li:nth-of-type(2){
+background-image: url(../../../img/download-55.jpg);
+}
+
+.content>ul:nth-of-type(4)>li:nth-of-type(3){
+background-image: url(../../../img/download-56.jpg);
+}
+
+.content>ul:nth-of-type(4)>li:nth-of-type(4){
+background-image: url(../../../img/download-57.jpg);
+}
+
+.content>ul:nth-of-type(4)>li:nth-of-type(5){
+background-image: url(../../../img/download-58.jpg);
+}
+
+.content>ul:nth-of-type(4)>li:nth-of-type(6){
+background-image: url(../../../img/download-59.jpg);
+}
+
+.content>ul:nth-of-type(4)>li:nth-of-type(7){
+background-image: url(../../../img/download-60.jpg);
+}
+
+.content>ul:nth-of-type(4)>li:nth-of-type(8){
+background-image: url(../../../img/download-61.jpg);
+}
+
 
 
 
