@@ -19,7 +19,7 @@ height:100px; margin: auto;}
 h1{float:left;
 margin-left: 50px;
 width: 195px; height: 100px;
-background-image:url(../../img/rb-logo.svg);
+background-image:url(../../../img/rb-logo.svg);
 background-repeat: no-repeat;
 background-position: center;
 background-size: contain;}
